@@ -1,3 +1,84 @@
-body (
-font-family: 'Open Sans', sans-serif;
-)
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Open sans', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/*************************************************************************************/
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+/************************************************************************************/
+
+h1 {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #306776;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: #306776;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: #306776;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: black;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #8E8586;
+    text-align: center;
+}
+
+
+/********************************************************************************/
+
+section#patientvejledning .column img {
+    width: 20%
+}
+
+section#klinikken .column img {
+    width: 100%;
+}
