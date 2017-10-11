@@ -1,0 +1,212 @@
+/*general styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*flexbox layout*/
+
+.sectionwrapper {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container {
+    width: 1200px;
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 50%;
+    min-width: 375px;
+    height: 400px;
+    align-content: center;
+}
+
+
+/*sections: */
+
+
+/* header */
+
+.title {
+    width: 100%;
+    height: 100px;
+}
+
+
+/* kontakt_info */
+
+
+/* om  */
+
+#om .column1 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 50px 150px;
+    background-color: #50a2BD;
+    margin: 50px 200px 50px 200px;
+    height: 500px;
+}
+
+#om .column1 h2{
+    color: #ffffff;
+}
+
+#om .column1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#om .column2 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: rebeccapurple;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+/* footer  */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+
+/*redesign master css*/
+
+
+/* nav */
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-color: #85BDDC;
+    width: 100%;
+}
+
+nav ul{
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 200px
+}
+
+li a:hover {
+    background-color: #8dc4e2;
+    color: #ffffff;
+}
+
+
+/*************************************************************************************/
+
+
+/******* typografi *****************************************************************************/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #0684C0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: #0684C0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #306776;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #8E8586;
+    text-align: center;
+}
+
+
+/******  billeder **************************************************************************/
+
+
+/******  MEDIA QUERIES MOBILE **************************************************************************/
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 592px) {
+    video {
+        width: 100%;
+        height: auto;
+        background-color: darkolivegreen;
+    }
+}
+
+>>>>>>>origin/master
