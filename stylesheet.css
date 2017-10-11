@@ -15,11 +15,16 @@
 }
 .column {
     width: 50%;
-    min-width:375px;
+    min-width: 200px;
     height: 400px;
+    margin: 20px;
 }
 /*sections: */
 /* header */
+
+.titel_column {
+    width: 100vw;
+}
 
 /* kontakt_info */
 
@@ -53,7 +58,7 @@
 /* footer  */
 footer {
     width: 100%;
-    height: 300px;
+    height: 150px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     background-color: #8e8586;
