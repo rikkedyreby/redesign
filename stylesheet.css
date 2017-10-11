@@ -62,14 +62,14 @@ img {
     flex-grow: 1;
     flex-basis: 400px;
     padding: 15px;
-    background-color: aqua;
+    background-color: #306776;
     margin: 30px;
 }
 
 #om .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: rebeccapurple;
+    background-color: #8E8586;
     margin: 30px;
     padding: 15px;
     text-align: center;
@@ -79,7 +79,7 @@ video {
     width: 70%;
     min-width: 375px;
     height: 400px;
-    background-color: brown;
+    background-color: #4592A8;
     align-content: center;
     display: block;
     margin: 0 auto;
@@ -88,7 +88,7 @@ video {
 #patientvejledning .column1 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: rebeccapurple;
+    background-color: #A9DECA;
     margin: 30px;
     padding: 15px;
 }
@@ -96,7 +96,7 @@ video {
 #patientvejledning .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: rebeccapurple;
+    background-color: #A9DECA;
     margin: 30px;
     padding: 15px;
 }
@@ -115,7 +115,7 @@ video {
 #lisbeth .column1 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: rebeccapurple;
+    background-color: #A9DECA;
     margin: 30px;
     padding: 15px;
 }
@@ -128,7 +128,7 @@ video {
 #lisbeth .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: red;
+    background-color: #A9DECA;
     margin: 30px;
     padding: 15px;
 }
