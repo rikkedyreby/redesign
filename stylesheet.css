@@ -1,28 +1,19 @@
 /*general styles*/
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-
+body {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 16px;
+}
 /*flexbox layout*/
 
 .sectionwrapper {
     width: 100%;
     height: auto;
-    display: -webkit-flex;
-    /* Safari */
-    -webkit-flex-wrap: wrap;
-    /* Safari 6.1+ */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#container {
-    width: 1200px;
-    width: 100%;
-    height: auto;
+    border: 1px solid #c3c3c3;
     display: -webkit-flex;
     /* Safari */
     -webkit-flex-wrap: wrap;
@@ -33,118 +24,37 @@
 
 .column {
     width: 50%;
+    min-width: 375px;
     height: 400px;
-<<<<<<< HEAD
-    flex-basis: 375px;
-=======
-    align-content: center;
->>>>>>> origin/master
 }
 
 
 /*sections: */
-
-
 /* header */
 
 .title {
     width: 100%;
-    height: 100px;
-}
-
-<<<<<<< HEAD
-/* nav* */
-
-nav {
-    margin: 0 auto;
+    height: auto;
     text-align: center;
-    width: 100%;
-    background-color: #85BDDC;
-    width: 100%;
 }
 
-nav ul{
-    display: inline-block;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    width: 200px
-}
-
-li a:hover {
-    background-color: #8dc4e2;
-    color: #ffffff;
-}
-
-=======
->>>>>>> origin/master
 
 /* kontakt_info */
-#kontakt_info .content{
-    flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 0 50px 0 50px;
-}
-
-.info_item {
-    flex-basis: 300px;
-}
 
 
 /* om  */
 
-#om .column1 {
+#om .column {
     background-color: aquamarine;
-    height: 100%;
-    width: 50%;
-    min-width: 375px;
-    padding: 10px;
-    margin: 20px 20px 20px 20px;
-}
-
-#om .column2 {
-    background-color: blue;
-    width: 50%%;
-    min-width: 375px;
-    height: 439px;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
 }
 
 
 /* video  */
 
 video {
-    width: 70%;
-    min-width: 375px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     background-color: brown;
-    align-content: center;
-    display: block;
-    margin: 0 auto;
 }
 
 
@@ -189,6 +99,36 @@ footer {
 /*redesign master css*/
 
 
+/* nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #85BDDC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .80em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
 /*************************************************************************************/
 
 
@@ -200,9 +140,7 @@ h1 {
     font-size: 2.5em;
     letter-spacing: 1px;
     color: #0684C0;
-    text-align: center;
 }
-
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -217,7 +155,7 @@ h3 {
     font-weight: 700;
     font-size: 1.4em;
     letter-spacing: 1px;
-    color: white;
+    color: #0684C0;
 }
 
 p {
@@ -225,7 +163,7 @@ p {
     font-weight: 400;
     font-size: 1em;
     letter-spacing: 1px;
-    color: white;
+    color: black;
 }
 
 footer {
@@ -247,4 +185,21 @@ section#klinikken .column img {
 
 section#klinik_billede .klinik_billede img {
     width: 100%;
+}
+/******  MEDIA QUERIES MOBILE **************************************************************************/
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+@media (max-width: 592px) {
+    video {
+    width: 100%;
+    height: auto;
+    background-color:darkolivegreen;
+    }
 }
