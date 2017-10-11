@@ -1,3 +1,4 @@
+<<<<<<< HEAD
         /*general styles*/
 
         * {
@@ -218,3 +219,210 @@
             text-align: center;
         }
         /******  billeder **************************************************************************/
+=======
+/*general styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 16px;
+}
+/*flexbox layout*/
+
+.sectionwrapper {
+    width: 100%;
+    height: auto;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 50%;
+    min-width: 375px;
+    height: 400px;
+}
+
+
+/*sections: */
+/* header */
+
+.title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+/* kontakt_info */
+
+
+/* om  */
+
+#om .column {
+    background-color: aquamarine;
+}
+
+
+/* video  */
+
+video {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+}
+
+
+/* patientvejledning  */
+
+#patientvejledning .column {
+    background-color: blueviolet;
+}
+
+
+/* klinik_billede  */
+
+#billede {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* lisbeth  */
+
+#lisbeth .column {
+    background-color: bisque;
+}
+
+
+/* klinikken  */
+
+#klinikken .column {
+    background-color: aqua;
+}
+
+
+/* footer  */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+
+/*redesign master css*/
+
+
+/* nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #85BDDC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .80em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/*************************************************************************************/
+
+
+/******* typografi *****************************************************************************/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #0684C0;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: #0684C0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    color: #0684C0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: black;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: #8E8586;
+    text-align: center;
+}
+
+
+/******  billeder **************************************************************************/
+
+section#patientvejledning .column img {
+    width: 20%
+}
+
+section#klinikken .column img {
+    width: 100%;
+}
+
+section#klinik_billede .klinik_billede img {
+    width: 100%;
+}
+/******  MEDIA QUERIES MOBILE **************************************************************************/
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+@media (max-width: 592px) {
+    video {
+    width: 100%;
+    height: auto;
+    background-color:darkolivegreen;
+    }
+}
+>>>>>>> origin/master
