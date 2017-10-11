@@ -37,6 +37,7 @@
     height: 100px;
 }
 
+
 /* kontakt_info */
 
 
@@ -48,6 +49,12 @@
 
 
 /* video  */
+
+video {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+}
 
 
 /* patientvejledning  */
@@ -122,12 +129,6 @@ li a:hover {
 
 
 /*************************************************************************************/
-
-#video {
-    width: 100%;
-    height: auto;
-    background-color: brown;
-}
 
 
 /******* typografi *****************************************************************************/
