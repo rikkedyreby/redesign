@@ -1,220 +1,220 @@
-/*general styles*/
+        /*general styles*/
 
-* {
-    margin: 0;
-    padding: 0;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*flexbox layout*/
 
+        .sectionwrapper {
+            width: 100%;
+            height: auto;
+            display: -webkit-flex;
+            /* Safari */
+            -webkit-flex-wrap: wrap;
+            /* Safari 6.1+ */
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-/*flexbox layout*/
+        #container {
+            width: 1200px;
+            width: 100%;
+            height: auto;
+            display: -webkit-flex;
+            /* Safari */
+            -webkit-flex-wrap: wrap;
+            /* Safari 6.1+ */
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-.sectionwrapper {
-    width: 100%;
-    height: auto;
-    display: -webkit-flex;
-    /* Safari */
-    -webkit-flex-wrap: wrap;
-    /* Safari 6.1+ */
-    display: flex;
-    flex-wrap: wrap;
-}
+        .column {
+            width: 50%;
+            min-width: 375px;
+            height: 400px;
+            align-content: center;
+        }
+        /*sections: */
+        /* header */
 
-#container {
-    width: 1200px;
-    width: 100%;
-    height: auto;
-    display: -webkit-flex;
-    /* Safari */
-    -webkit-flex-wrap: wrap;
-    /* Safari 6.1+ */
-    display: flex;
-    flex-wrap: wrap;
-}
+        .title {
+            width: 100%;
+            height: 100px;
+        }
+        /* kontakt_info */
+        /* om  */
 
-.column {
-    width: 50%;
-    min-width: 375px;
-    height: 400px;
-    align-content: center;
-}
+        #om .column1 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            padding: 15px;
+            background-color: aqua;
+            margin: 30px;
+        }
 
+        #om .column2 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: rebeccapurple;
+            margin: 30px;
+            padding: 15px;
+            text-align: center;
+        }
 
-/*sections: */
+        video {
+            width: 70%;
+            min-width: 375px;
+            height: 400px;
+            background-color: brown;
+            align-content: center;
+            display: block;
+            margin: 0 auto;
+        }
 
+        #patientvejledning .column1 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: rebeccapurple;
+            margin: 30px;
+            padding: 15px;
+        }
 
-/* header */
+        #patientvejledning .column2 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: rebeccapurple;
+            margin: 30px;
+            padding: 15px;
+        }
 
-.title {
-    width: 100%;
-    height: 100px;
-}
+        #patientvejledning .column2 img {
+            width: 20%
+        }
 
+        .klinik_billede img {
+            width: 100vw;
+        }
+        /* lisbeth  */
 
-/* kontakt_info */
+        #lisbeth .column1 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: rebeccapurple;
+            margin: 30px;
+            padding: 15px;
+        }
 
+        #lisbeth .column1 img {
+            width: 100%;
+            height: 100%;
+        }
 
-/* om  */
+        #lisbeth .column2 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: red;
+            margin: 30px;
+            padding: 15px;
+        }
+        /* klinikken  */
 
-#om .column1 {
-    background-color: aquamarine;
-    height: 100%;
-    width: 50%;
-    min-width: 375px;
-    padding: 10px;
-    margin: 20px 20px 20px 20px;
-}
+        #klinikken .column1 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: red;
+            margin: 30px;
+            padding: 15px;
+        }
 
-#om .column2 {
-    background-color: blue;
-    width: 50%%;
-    min-width: 375px;
-    height: 439px;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-}
+        #klinikken .column2 {
+            flex-grow: 1;
+            flex-basis: 400px;
+            background-color: beige;
+            margin: 30px;
+            padding: 15px;
+        }
 
+        #klinikken .column2 img {
+            width: 100%;
+        }
+        /* footer  */
 
-/* video  */
+        footer {
+            width: 100%;
+            height: 300px;
+            background-color: black;
+        }
+        /*redesign master css*/
+        /* nav */
 
-video {
-    width: 70%;
-    min-width: 375px;
-    height: 400px;
-    background-color: brown;
-    align-content: center;
-    display: block;
-    margin: 0 auto;
-}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #85BDDC;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: .80em;
+        }
 
+        li {
+            float: left;
+        }
 
-/* patientvejledning  */
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
 
-#patientvejledning .column {
-    background-color: blueviolet;
-}
+        li a:hover {
+            background-color: #111;
+        }
+        /*************************************************************************************/
+        /******* typografi *****************************************************************************/
 
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            color: #0684C0;
+            text-align: center;
+        }
 
-/* klinik_billede  */
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 1.4em;
+            letter-spacing: 1px;
+            color: #0684C0;
+            text-align: center;
+        }
 
-#billede {
-    width: 100%;
-    height: 300px;
-}
+        h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 1.4em;
+            letter-spacing: 1px;
+            color: white;
+        }
 
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 1em;
+            letter-spacing: 1px;
+            color: white;
+        }
 
-/* lisbeth  */
-
-#lisbeth .column {
-    background-color: bisque;
-}
-
-
-/* klinikken  */
-
-#klinikken .column {
-    background-color: aqua;
-}
-
-
-/* footer  */
-
-footer {
-    width: 100%;
-    height: 300px;
-    background-color: black;
-}
-
-
-/*redesign master css*/
-
-
-/* nav */
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #85BDDC;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: .80em;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-
-/*************************************************************************************/
-
-
-/******* typografi *****************************************************************************/
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 2.5em;
-    letter-spacing: 1px;
-    color: #0684C0;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.4em;
-    letter-spacing: 1px;
-    color: #0684C0;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.4em;
-    letter-spacing: 1px;
-    color: white;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 1px;
-    color: white;
-}
-
-footer {
-    font-family: 'Open Sans', sans-serif;
-    color: #8E8586;
-    text-align: center;
-}
-
-
-/******  billeder **************************************************************************/
-
-section#patientvejledning .column img {
-    width: 20%
-}
-
-section#klinikken .column img {
-    width: 100%;
-}
-
-section#klinik_billede .klinik_billede img {
-    width: 100%;
-}
+        footer {
+            font-family: 'Open Sans', sans-serif;
+            color: #8E8586;
+            text-align: center;
+        }
+        /******  billeder **************************************************************************/
