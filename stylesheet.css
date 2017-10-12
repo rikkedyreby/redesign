@@ -1,283 +1,264 @@
-/*general styles*/
+    /*general styles*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-}
-
-
-/*flexbox layout*/
-
-.sectionwrapper {
-    width: 100%;
-    height: auto;
-    display: -webkit-flex;
-    /* Safari */
-    -webkit-flex-wrap: wrap;
-    /* Safari 6.1+ */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#container {
-    width: 1200px;
-    width: 100%;
-    height: auto;
-    display: -webkit-flex;
-    /* Safari */
-    -webkit-flex-wrap: wrap;
-    /* Safari 6.1+ */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-/*sections: */
-
-
-/* header */
-
-.title {
-    width: 100%;
-    height: auto;
-}
-
-#kontakt_info {
-    width: 100%;
-}
-
-
-/* kontakt_info */
-
-
-/* om  */
-
-#om .column1 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    padding: 15px;
-    background-color: #306776;
-    margin: 30px;
-}
-
-#om .column2 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: #8E8586;
-    margin: 30px;
-    padding: 15px;
-    text-align: center;
-}
-
-video {
-    width: 70%;
-    min-width: 375px;
-    height: 400px;
-    background-color: #4592A8;
-    align-content: center;
-    display: block;
-    margin: 0 auto;
-}
-
-#patientvejledning .column1 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: #A9DECA;
-    margin: 30px;
-    padding: 15px;
-}
-
-#patientvejledning .column2 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: #A9DECA;
-    margin: 30px;
-    padding: 15px;
-}
-
-#patientvejledning .column2 img {
-    width: 20%;
-}
-
-.klinik_billede img {
-    width: 100vw;
-}
-
-
-/* lisbeth  */
-
-#lisbeth .column1 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: #A9DECA;
-    margin: 30px;
-    padding: 15px;
-}
-
-#lisbeth .column1 img {
-    width: 100%;
-    height: 100%;
-}
-
-#lisbeth .column2 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: #A9DECA;
-    margin: 30px;
-    padding: 15px;
-}
-
-
-/* klinikken  */
-
-#klinikken .column1 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: red;
-    margin: 30px;
-    padding: 15px;
-}
-
-#klinikken .column2 {
-    flex-grow: 1;
-    flex-basis: 400px;
-    background-color: beige;
-    margin: 30px;
-    padding: 15px;
-}
-
-#klinikken .column2 img {
-    width: 100%;
-}
-
-
-/* footer  */
-
-footer {
-    width: 100%;
-    height: 300px;
-    background-color: black;
-}
-
-
-/*redesign master css*/
-
-
-/* nav */
-
-nav {
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    background-color: #85BDDC;
-    width: 100%;
-}
-
-nav ul {
-    display: inline-block;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    width: 200px
-}
-
-li a:hover {
-    background-color: #8dc4e2;
-    color: #ffffff;
-}
-
-
-/*************************************************************************************/
-
-
-/******* typografi *****************************************************************************/
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 2.5em;
-    letter-spacing: 1px;
-    color: #0684C0;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.4em;
-    letter-spacing: 1px;
-    color: #0684C0;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.4em;
-    letter-spacing: 1px;
-    color: white;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 1px;
-    color: white;
-}
-
-footer {
-    font-family: 'Open Sans', sans-serif;
-    color: #8E8586;
-    text-align: center;
-}
-
-
-/******  billeder **************************************************************************/
-
-
-/******  MEDIA QUERIES MOBILE **************************************************************************/
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.8em;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    h2 {
-        font-size: 1em;
-    }
-}
 
-@media (max-width: 592px) {
-    video {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    /*flexbox layout*/
+
+    .sectionwrapper {
         width: 100%;
         height: auto;
-        background-color: darkolivegreen;
+        display: -webkit-flex;
+        /* Safari */
+        -webkit-flex-wrap: wrap;
+        /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
     }
-}
+    /*sections: */
+    /* header */
 
->>>>>>>origin/master
+    .title {
+        width: 100%;
+        height: auto;
+    }
+
+    #kontakt_info {
+        width: 100%;
+    }
+    /* kontakt_info */
+    /* om  */
+
+    #om .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding: 15px;
+        background-color: #30a1b6;
+        margin: 30px;
+    }
+
+    #om .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #8E8586;
+        margin: 30px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #video {
+        width: 70%;
+        min-width: 375px;
+        height: 400px;
+        background-color: #A9DECA;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    video {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 10Px;
+    }
+
+    #patientvejledning .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #758586;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    #patientvejledning .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #758586;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    #patientvejledning .column2 img {
+        width: 10%;
+    }
+
+    .klinik_billede img {
+        width: 100%;
+        padding: 30px;
+    }
+    /* lisbeth  */
+
+    #lisbeth .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #C8C5C5;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    #lisbeth .column1 img {
+        width: 70%;
+        height: 100%;
+    }
+
+    #lisbeth .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #C8C5C5;
+        margin: 30px;
+        padding: 15px;
+    }
+    /* klinikken  */
+
+    #klinikken .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #4592A8;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    #klinikken .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #4592A8;
+        margin: 30px;
+        padding: 15px;
+    }
+
+    #klinikken .column2 img {
+        width: 100%;
+    }
+
+    nav {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        background-color: #85BDDC;
+        width: 100%;
+    }
+
+    nav ul {
+        display: inline-block;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        width: 200px
+    }
+
+    li a:hover {
+        background-color: #8dc4e2;
+        color: #ffffff;
+    }
+    /*************************************************************************************/
+    /******* typografi *****************************************************************************/
+
+    h1 {
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 2.5em;
+        letter-spacing: 1px;
+        color: #0684C0;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        color: #0684C0;
+        text-align: center;
+    }
+
+    #patientvejledning h2 {
+        color: white;
+    }
+
+    #klinikken h2 {
+        color: white;
+    }
+
+    #om h2 {
+        color: white;
+    }
+
+    a {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+    footer {
+        font-family: 'Lucida Fax', sans-serif;
+        color: #8E8586;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    /******  billeder **************************************************************************/
+    /******  MEDIA QUERIES MOBILE **************************************************************************/
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.8em;
+        }
+        h2 {
+            font-size: 1em;
+        }
+    }
+
+    @media (max-width: 592px) {
+        video {
+            width: 100%;
+            height: auto;
+            background-color: darkolivegreen;
+        }
+    }
