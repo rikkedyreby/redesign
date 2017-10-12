@@ -1,4 +1,3 @@
-
 /*general styles*/
 
 * {
@@ -61,7 +60,7 @@ img {
 #om .column1 {
     flex-grow: 1;
     flex-basis: 400px;
-    padding: 15px;
+    padding: 30px;
     background-color: #30a1b6;
     margin: 30px;
 }
@@ -71,12 +70,12 @@ img {
     flex-basis: 400px;
     background-color: #8E8586;
     margin: 30px;
-    padding: 15px;
+    padding: 60px;
     text-align: center;
 }
 
-            /*----------------------------------VIDEO-----------------------*/
 
+<<<<<<< HEAD
             #video {
                 width: 96.8%;
                 min-width: 375px;
@@ -86,33 +85,43 @@ img {
                 margin: 0 auto;
                 padding: 20px;
             }
+=======
+/*----------------------------------VIDEO-----------------------*/
+
+#video {
+    width: 96.8%;
+    min-width: 375px;
+    background-color: #A9DECA;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+>>>>>>> origin/master
 #video a {
     text-decoration: none;
 }
-
 
 #video img:hover {
     box-shadow: 0 0 50px 5px rgba(0, 140, 186, 0.5);
 }
 
-            #video img {
-                height: auto;
-                width: 30%;
-                margin-top: 20px;
-            }
+#video img {
+    height: auto;
+    width: 45%;
+    margin-top: 20px;
+}
 
-            @media (max-width: 828px) {
-                #video img {
-                    padding-top: 50px;
-                    height: auto;
-                    width: 80%;
-                }
-                #video h2 {
-                    padding-top: 50px;
-
-                }
-
-            }
+@media (max-width: 828px) {
+    #video img {
+        padding-top: 50px;
+        height: auto;
+        width: 80%;
+    }
+    #video h2 {
+        padding-top: 50px;
+    }
+}
 
 #patientvejledning .column1 {
     flex-grow: 1;
@@ -444,7 +453,7 @@ h2 {
     font-weight: 700;
     font-size: 1.4em;
     letter-spacing: 1px;
-    color: #0684C0;
+    color: white;
     text-align: center;
 }
 
@@ -525,6 +534,7 @@ footer {
     }
 }
 
+<<<<<<< HEAD
 /*--------------------------------INFOSIDE CSS------------------------------*/
 
 #om_info_side .column1 {
@@ -621,3 +631,6 @@ footer {
     margin: 30px;
     padding: 15px;
 }
+=======
+>>>>>>>origin/master
+>>>>>>> origin/master
