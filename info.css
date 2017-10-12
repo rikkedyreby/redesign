@@ -18,6 +18,17 @@
     width: 100%;
 }
 
+ #kontakt_info .content h2 {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: 1em;
+                letter-spacing: 3px;
+                color: #85bddc;
+                margin: 10px;
+                padding: 10px;
+                word-spacing: px;
+            }
+
 #om .column1 {
     background-color: #30a1b6;
     padding: 10px;
