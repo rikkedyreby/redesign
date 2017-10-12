@@ -81,7 +81,7 @@ img {
                 width: 96.8%;
                 min-width: 375px;
                 height: 400px;
-                background-color: #A9DECA;
+                background-color: #85bddc;
                 display: block;
                 margin: 0 auto;
                 padding: 20px;
@@ -524,4 +524,100 @@ footer {
         background-color: darkolivegreen;
     }
 }
->>>>>>> origin/master
+
+/*--------------------------------INFOSIDE CSS------------------------------*/
+
+#om_info_side .column1 {
+    background-color: #30a1b6;
+    padding: 10px;
+    margin: 30px;
+    height: auto;
+}
+
+#om_info_side .column1 h2 {
+    color: #ffffff;
+}
+
+#om_info_side .column1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#om_info_side img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*------------------------------VIDEO CSS ---------------------------------------*/
+
+
+#video_site .video {
+                width: 96.8%;
+                min-width: 375px;
+                height: 400px;
+                background-color: #A9DECA;
+                display: block;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+#video_site .video_box h2 {
+    padding: 10px;
+    font-size: 2em;
+}
+
+#video_site .video a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#video_site .hs-responsive-embed-computer video{
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+#video_site .hs-responsive-embed-computer {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 10px;
+}
+
+#video_site .video_box {
+    margin: 50px 200px
+}
+
+@media all and (max-width: 828px) {
+   #video_site .video_box {
+    margin: 0
+    }
+    #video_site .video_box h2 {
+    padding: 10px;
+    font-size: 1em;
+}
+}
+
+/*-----------------------------------LISBETH CSS-------------------------------------*/
+
+#lisbeth_site .column1 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 15px;
+}
+
+#lisbeth_site .column1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#lisbeth_site .column2 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 15px;
+}
