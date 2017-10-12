@@ -178,7 +178,6 @@
         background-color: #8dc4e2;
         color: #ffffff;
     }
-
     /*-------- DROPDOWN ---------- */
 
     .dropdown-content {
@@ -327,7 +326,6 @@
             display: none;
         }
     }
-
     /*************************************************************************************/
     /******* typografi *****************************************************************************/
 
@@ -375,6 +373,8 @@
         font-size: 1.4em;
         letter-spacing: 1px;
         color: white;
+        margin: 10px;
+        padding: 10px;
     }
 
     p {
