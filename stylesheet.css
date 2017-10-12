@@ -99,7 +99,27 @@
             }
 
             #patientvejledning .column2 img {
-                width: 10%;
+                display: inline;
+                margin: 0 10px 5px 0;
+            }
+
+            #patientvejledning .column2 li a {
+                display: inline;
+                margin: 0;
+                padding: 0;
+                width: auto;
+            }
+
+            #patientvejledning .column2 li {
+                margin-bottom: 10px;
+            }
+            /*icon positioning*/
+
+            #patientvejledning .column2 i {
+                position: relative;
+                /* Adjust these values accordingly */
+                top: 7px;
+                left: 0px;
             }
 
             .klinik_billede img {
