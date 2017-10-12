@@ -1,432 +1,458 @@
-            /*general styles*/
+    /*general styles*/
 
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-            img {
-                display: block;
-                margin: 0 auto;
-            }
-            /*flexbox layout*/
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    /*flexbox layout*/
 
-            .sectionwrapper {
-                width: 100%;
-                height: auto;
-                display: -webkit-flex;
-                /* Safari */
-                -webkit-flex-wrap: wrap;
-                /* Safari 6.1+ */
-                display: flex;
-                flex-wrap: wrap;
-            }
-            /*sections: */
-            /* header */
+    .sectionwrapper {
+        width: 100%;
+        height: auto;
+        display: -webkit-flex;
+        /* Safari */
+        -webkit-flex-wrap: wrap;
+        /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*sections: */
+    /* header */
 
-            .title {
-                width: 100%;
-                height: auto;
-            }
-            /* kontakt_info */
+    .title {
+        width: 100%;
+        height: auto;
+    }
 
-            #kontakt_info {
-                width: 100%;
-            }
+    #kontakt_info {
+        width: 100%;
+    }
+    /* kontakt_info */
+    /* om  */
 
-            #kontakt_info .content h2 {
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 400;
-                font-size: 1em;
-                letter-spacing: 3px;
-                color: #85bddc;
-                margin: 10px;
-                padding: 10px;
-                word-spacing: px;
-            }
-            /* om  */
+    #om .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding: 15px;
+        background-color: #30a1b6;
+        margin: 30px;
+    }
 
-            #om .column1 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                padding: 20px;
-                background-color: #30a1b6;
-                margin: 30px;
-            }
+    #om .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #8E8586;
+        margin: 30px;
+        padding: 15px;
+        text-align: center;
+    }
 
-            #om .column2 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #8E8586;
-                margin: 30px;
-                padding: 50px;
-                text-align: center;
-            }
+    #video {
+        width: 70%;
+        min-width: 375px;
+        height: 400px;
+        background-color: #A9DECA;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
-            #video {
-                width: 70%;
-                min-width: 375px;
-                height: 400px;
-                background-color: #A9DECA;
-                display: block;
-                margin: 0 auto;
-                padding: 20px;
-            }
+    video {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 10Px;
+    }
 
-            video {
-                width: 70%;
-                height: auto;
-                display: block;
-                margin: 0 auto;
-                padding: 20px;
-            }
+    #patientvejledning .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #758586;
+        margin: 30px;
+        padding: 15px;
+    }
 
-            #patientvejledning .column1 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #758586;
-                margin: 30px;
-                padding: 15px;
-            }
+    #patientvejledning .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #758586;
+        margin: 30px;
+        padding: 25px 25px 30px 30px;
+    }
 
-            #patientvejledning .column2 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #758586;
-                margin: 30px;
-                padding: 20px;
-            }
+    #patientvejledning .column2 img {
+        display: inline;
+        margin: 0 10px 5px 0;
+}
 
-            #patientvejledning .column2 img {
-                width: 10%;
-            }
+    #patientvejledning .column2 li a {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        width: auto;
+}
+    #patientvejledning .column2 li {
+        margin-bottom: 10px;
+}
+/*icon positioning*/
+    #patientvejledning .column2 i {
+      position: relative;
+      /* Adjust these values accordingly */
+      top: 7px;
+      left: 0px;
+}
+    .klinik_billede img {
+        width: 100%;
+        padding: 30px;
+    }
+    /* lisbeth  */
 
-            .klinik_billede img {
-                width: 100%;
-                padding: 30px;
-            }
-            /* lisbeth  */
+    #lisbeth .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #C8C5C5;
+        margin: 30px;
+        padding: 15px;
+    }
 
-            #lisbeth .column1 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #C8C5C5;
-                margin: 30px;
-                padding: 20px;
-            }
+    #lisbeth .column1 img {
+        width: 70%;
+        height: 100%;
+    }
 
-            #lisbeth .column1 img {
-                width: 60%;
-                height: 100%;
-            }
+    #lisbeth .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #C8C5C5;
+        margin: 30px;
+        padding: 15px;
+    }
+    /* klinikken  */
 
-            #lisbeth .column2 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #C8C5C5;
-                margin: 30px;
-                padding: 60px;
-            }
-            /* klinikken  */
+    #klinikken .column1 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #4592A8;
+        margin: 30px;
+        padding: 15px;
+    }
 
-            #klinikken .column1 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #4592A8;
-                margin: 30px;
-                padding: 60px;
-            }
+    #klinikken .column2 {
+        flex-grow: 1;
+        flex-basis: 400px;
+        background-color: #4592A8;
+        margin: 30px;
+        padding: 15px;
+    }
 
-            #klinikken .column2 {
-                flex-grow: 1;
-                flex-basis: 400px;
-                background-color: #4592A8;
-                margin: 30px;
-                padding: 20px;
-            }
+    #klinikken .column2 img {
+        width: 100%;
+    }
 
-            #klinikken .column2 img {
-                width: 100%;
-            }
+    nav {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        background-color: #85BDDC;
+        width: 100%;
+    }
 
-            nav {
-                margin: 0 auto;
-                text-align: center;
-                width: 100%;
-                background-color: #85BDDC;
-                width: 100%;
-            }
+    nav ul {
+        display: inline-block;
+    }
 
-            nav ul {
-                display: inline-block;
-            }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+    }
 
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                font-family: 'Lucida Fax', sans-serif;
-                font-weight: 700;
-                font-size: 1em;
-            }
+    li {
+        float: left;
+    }
 
-            li {
-                float: left;
-            }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        width: 200px
+    }
 
-            li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                width: 200px
-            }
+    li a:hover {
+        background-color: #8dc4e2;
+        color: #ffffff;
+    }
+    /*-------- DROPDOWN ---------- */
 
-            li a:hover {
-                background-color: #8dc4e2;
-                color: #ffffff;
-            }
-            /*-------- DROPDOWN ---------- */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    /* Style The Dropdown Button */
 
-            .dropdown-content {
-                display: none;
-                position: absolute;
-                background-color: #ffffff;
-                min-width: 160px;
-                box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-                padding: 12px 16px;
-                z-index: 1;
-            }
-            /* Style The Dropdown Button */
+    .dropbtn {
+        background-color: #5d6f7d;
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    /* The container <div> - needed to position the dropdown content */
 
-            .dropbtn {
-                background-color: #5d6f7d;
-                padding: 16px;
-                font-size: 16px;
-                cursor: pointer;
-            }
-            /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    /* Dropdown Content (Hidden by Default) */
 
-            .dropdown {
-                position: relative;
-                display: inline-block;
-            }
-            /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+    }
+    /* Links inside the dropdown */
 
-            .dropdown-content {
-                display: none;
-                position: absolute;
-                background-color: #ffffff;
-                min-width: 160px;
-                z-index: 1;
-            }
-            /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        display: block;
+    }
+    /* Change color of dropdown links on hover */
 
-            .dropdown-content a {
-                color: black;
-                padding: 12px 16px;
-                display: block;
-            }
-            /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    /* Show the dropdown menu on hover */
 
-            .dropdown-content a:hover {
-                background-color: #ffffff
-            }
-            /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* Change the background color of the dropdown button when the dropdown content is shown */
 
-            .dropdown:hover .dropdown-content {
-                display: block;
-            }
-            /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #5d6f7d;
+    }
+    /*-------- Media Queries ---------- */
 
-            .dropdown:hover .dropbtn {
-                background-color: #85BDDC;
-            }
-            /*-------- Media Queries ---------- */
+    @media all and (max-width: 828px) {
+        nav ul {
+            display: none;
+        }
+        nav select {
+            display: inline-block;
+        }
+        body {
+            margin-top: 80px;
+        }
+    }
 
-            @media all and (max-width: 828px) {
-                nav ul {
-                    display: none;
-                }
-                nav select {
-                    display: inline-block;
-                }
-                body {
-                    margin-top: 80px;
-                }
-            }
+    @media all and (min-width: 828px) {
+        .dropdown {
+            display: none;
+        }
+    }
+    /*--------- NAVIGATION MENU -------*/
 
-            @media all and (min-width: 828px) {
-                .dropdown {
-                    display: none;
-                }
-            }
-            /*--------- NAVIGATION MENU -------*/
-            /*--------- DROPDOWN MENU ----------*/
+    nav {
+        background-color: #5d6f7d;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
 
-            .dropbtn {
-                background-color: #85BDDC;
-                color: white;
-                padding: 16px;
-                width: 113px;
-                border: none;
-                cursor: pointer;
-                font-size: 1.5em;
-                text-align: left;
-                font-family: "Open Sans", sans-serif;
-            }
-            /*------ DROPDOWN CONTAINER -------*/
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
-            .dropdown {
-                position: fixed;
-                display: inline-block;
-                width: 100%;
-                top: 0;
-                background-color: #85BDDC;
-            }
+    nav li {
+        display: inline-block;
+        margin: 0vw 2vw 0vw 2vw;
+    }
 
-            .dropdown ul {
-                background-color: #85BDDC;
-                list-style-type: none;
-                text-align: left;
-            }
-            /*-------- DROPDOWN INDHOLD -------*/
+    nav a {
+        display: block;
+        margin: 1vw 5vw 1vw 5vw;
+        font-size: 1.2em;
+        letter-spacing: 0.3vw;
+    }
 
-            .dropdown-content {
-                display: none;
-                position: absolute;
-                background-color: #85BDDC;
-                min-width: 200px;
-                z-index: 1;
-            }
+    nav a:hover {
+        color: #5d6f7d;
+    }
+    /*--------- DROPDOWN MENU ----------*/
 
-            .dropdown-content a {
-                color: #ffffff;
-                padding: 10px;
-                width: 200px;
-                display: block;
-            }
+    .dropbtn {
+        background-color: #3f3f3f;
+        color: #F7F0E7;
+        padding: 16px;
+        width: 113px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    /*------ DROPDOWN CONTAINER -------*/
 
-            .dropdown-content a:hover {
-                background-color: #ffffff;
-                color: #5d6f7d;
-            }
+    .dropdown {
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        top: 0;
+        background-color: #3f3f3f;
+    }
 
-            .dropdown:hover .dropdown-content {
-                display: block;
-            }
-            /*-------- Media Queries ---------- */
+    .dropdown ul {
+        background-color: #3f3f3f;
+        list-style-type: none;
+        text-align: left;
+    }
+    /*-------- DROPDOWN INDHOLD -------*/
 
-            @media all and (max-width: 828px) {
-                nav ul {
-                    display: none;
-                }
-                nav select {
-                    display: inline-block;
-                }
-                body {
-                    margin-top: 80px;
-                }
-            }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #5d6f7d;
+        min-width: 200px;
+        z-index: 1;
+    }
 
-            @media all and (min-width: 828px) {
-                .dropdown {
-                    display: none;
-                }
-            }
-            /*************************************************************************************/
-            /******* typografi *****************************************************************************/
+    .dropdown-content a {
+        color: #f1f1f1;
+        padding: 10px;
+        width: 200px;
+        display: block;
+    }
 
-            h1 {
-                font-family: 'Lucida Fax', sans-serif;
-                font-weight: 700;
-                font-size: 2.5em;
-                letter-spacing: 1px;
-                color: #0684C0;
-                text-align: center;
-            }
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+        color: #5d6f7d;
+    }
 
-            h2 {
-                font-family: 'Lucida Fax', sans-serif;
-                font-weight: 700;
-                font-size: 1.4em;
-                letter-spacing: 1px;
-                color: white;
-                text-align: center;
-            }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /*-------- Media Queries ---------- */
 
-            #patientvejledning h2 {
-                color: white;
-            }
+    @media all and (max-width: 828px) {
+        nav ul {
+            display: none;
+        }
+        nav select {
+            display: inline-block;
+        }
+        body {
+            margin-top: 80px;
+        }
+    }
 
-            #klinikken h2 {
-                color: white;
-            }
+    @media all and (min-width: 828px) {
+        .dropdown {
+            display: none;
+        }
+    }
+    /*************************************************************************************/
+    /******* typografi *****************************************************************************/
 
-            #om h2 {
-                color: white;
-            }
+    h1 {
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 2.5em;
+        letter-spacing: 1px;
+        color: #0684C0;
+        text-align: center;
+    }
 
-            #om h3 {
-                padding: 10px;
-                margin: 10px;
-            }
+    h2 {
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        color: #0684C0;
+        text-align: center;
+    }
 
-            a {
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 400;
-                font-size: 1em;
-                letter-spacing: 1px;
-                color: white;
-            }
+    #patientvejledning h2 {
+        color: white;
+        margin-bottom: 15px;
+    }
 
-            h3 {
-                font-family: 'Lucida Fax', sans-serif;
-                font-weight: 700;
-                font-size: 1.4em;
-                letter-spacing: 1px;
-                color: white;
-                margin: 10px;
-                padding: 10px;
-            }
+    #klinikken h2 {
+        color: white;
+    }
 
-            p {
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 400;
-                font-size: 1em;
-                letter-spacing: 1px;
-                color: white;
-                margin: 10px;
-                padding: 10px;
-            }
+    #om h2 {
+        color: white;
+    }
 
-            footer {
-                font-family: 'Lucida Fax', sans-serif;
-                color: #8E8586;
-                text-align: center;
-                padding: 20px;
-                width: 100%;
-                height: auto;
-            }
-            /******  billeder **************************************************************************/
-            /******  MEDIA QUERIES MOBILE **************************************************************************/
+    a {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+    }
 
-            @media (max-width: 480px) {
-                h1 {
-                    font-size: 1.8em;
-                }
-                h2 {
-                    font-size: 1em;
-                }
-            }
+    h3 {
+        font-family: 'Lucida Fax', sans-serif;
+        font-weight: 700;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        color: white;
+    }
 
-            @media (max-width: 592px) {
-                video {
-                    width: 100%;
-                    height: auto;
-                    background-color: darkolivegreen;
-                }
-            }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+    footer {
+        font-family: 'Lucida Fax', sans-serif;
+        color: #8E8586;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    /******  billeder **************************************************************************/
+    /******  MEDIA QUERIES MOBILE **************************************************************************/
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.8em;
+        }
+        h2 {
+            font-size: 1em;
+        }
+    }
+
+    @media (max-width: 592px) {
+        video {
+            width: 100%;
+            height: auto;
+            background-color: darkolivegreen;
+        }
+    }
