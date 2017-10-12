@@ -61,43 +61,41 @@ img {
     flex-grow: 1;
     flex-basis: 400px;
     padding: 30px;
-    background-color: #30a1b6;
+    background-color: #87bdc4;
     margin: 30px;
 }
 
 #om .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #8E8586;
+    background-color: #9f9f9f;
     margin: 30px;
     padding: 60px;
     text-align: center;
 }
 
-
-<<<<<<< HEAD
-            #video {
-                width: 96.8%;
-                min-width: 375px;
-                height: 400px;
-                background-color: #85bddc;
-                display: block;
-                margin: 0 auto;
-                padding: 20px;
-            }
-=======
-/*----------------------------------VIDEO-----------------------*/
-
 #video {
     width: 96.8%;
     min-width: 375px;
-    background-color: #A9DECA;
+    height: 400px;
+    background-color: #85bddc;
     display: block;
     margin: 0 auto;
     padding: 20px;
 }
 
->>>>>>> origin/master
+
+/*----------------------------------VIDEO-----------------------*/
+
+#video {
+    width: 96.8%;
+    min-width: 375px;
+    background-color: #a1cce3;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 #video a {
     text-decoration: none;
 }
@@ -126,7 +124,7 @@ img {
 #patientvejledning .column1 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #758586;
+    background-color: #9ca5a5;
     margin: 30px;
     padding: 15px;
 }
@@ -134,7 +132,7 @@ img {
 #patientvejledning .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #758586;
+    background-color: #9ca5a5;
     margin: 30px;
     padding: 15px;
 }
@@ -200,7 +198,7 @@ img {
 #klinikken .column1 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #4592A8;
+    background-color: #6babbe;
     margin: 30px;
     padding: 15px;
 }
@@ -208,7 +206,7 @@ img {
 #klinikken .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #4592A8;
+    background-color: #6babbe;
     margin: 30px;
     padding: 15px;
 }
@@ -561,16 +559,15 @@ footer {
 
 /*------------------------------VIDEO CSS ---------------------------------------*/
 
-
 #video_site .video {
-                width: 96.8%;
-                min-width: 375px;
-                height: 400px;
-                background-color: #A9DECA;
-                display: block;
-                margin: 0 auto;
-                padding: 20px;
-            }
+    width: 96.8%;
+    min-width: 375px;
+    height: 400px;
+    background-color: #A9DECA;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 #video_site .video_box h2 {
     padding: 10px;
@@ -582,7 +579,7 @@ footer {
     text-decoration: none;
 }
 
-#video_site .hs-responsive-embed-computer video{
+#video_site .hs-responsive-embed-computer video {
     position: absolute;
     width: 100%!important;
     height: 100%!important;
@@ -600,14 +597,15 @@ footer {
 }
 
 @media all and (max-width: 828px) {
-   #video_site .video_box {
-    margin: 0
+    #video_site .video_box {
+        margin: 0
     }
     #video_site .video_box h2 {
-    padding: 10px;
-    font-size: 1em;
+        padding: 10px;
+        font-size: 1em;
+    }
 }
-}
+
 
 /*-----------------------------------LISBETH CSS-------------------------------------*/
 
@@ -631,6 +629,5 @@ footer {
     margin: 30px;
     padding: 15px;
 }
-=======
->>>>>>>origin/master
->>>>>>> origin/master
+
+=======>>>>>>>origin/master>>>>>>>origin/master
