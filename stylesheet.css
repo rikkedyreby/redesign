@@ -29,7 +29,6 @@
                 width: 100%;
                 height: auto;
             }
-
             /* kontakt_info */
 
             #kontakt_info {
@@ -46,7 +45,6 @@
                 padding: 10px;
                 word-spacing: px;
             }
-
             /* om  */
 
             #om .column1 {
@@ -119,7 +117,7 @@
             }
 
             #lisbeth .column1 img {
-                width: 70%;
+                width: 60%;
                 height: 100%;
             }
 
@@ -128,7 +126,7 @@
                 flex-basis: 400px;
                 background-color: #C8C5C5;
                 margin: 30px;
-                padding: 15px;
+                padding: 70px;
             }
             /* klinikken  */
 
