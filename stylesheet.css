@@ -86,7 +86,7 @@ img {
 #video {
     width: 96.8%;
     min-width: 375px;
-    background-color: #92b5a4;
+    background-color: rgba(169, 193, 181, 0.68);
     display: block;
     margin: 0 auto;
     padding: 20px;
