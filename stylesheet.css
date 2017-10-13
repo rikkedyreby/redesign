@@ -1,9 +1,11 @@
 /*general styles*/
 
 * {
-    margin: 0;
+    max-width: 1440px;
+    height: auto;
     padding: 0;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 img {
@@ -51,7 +53,6 @@ img {
     color: #85bddc;
     margin: 10px;
     padding: 10px;
-    word-spacing: px;
 }
 
 
@@ -80,23 +81,13 @@ img {
     margin: 30px;
 }
 
-#video {
-    width: 96.8%;
-    min-width: 375px;
-    height: 400px;
-    background-color: #85bddc;
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 
 /*----------------------------------VIDEO-----------------------*/
 
 #video {
     width: 96.8%;
     min-width: 375px;
-    background-color: #a1cce3;
+    background-color: rgba(169, 193, 181, 0.68);
     display: block;
     margin: 0 auto;
     padding: 20px;
@@ -131,7 +122,7 @@ img {
 #patientvejledning .column1 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #9ca5a5;
+    background-color: #a1cce3;
     margin: 30px;
     padding: 15px;
 }
@@ -139,7 +130,7 @@ img {
 #patientvejledning .column2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #9ca5a5;
+    background-color: #a1cce3;
     margin: 30px;
     padding: 15px;
 }
