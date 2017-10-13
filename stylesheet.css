@@ -58,6 +58,10 @@ img {
 
 /* om  */
 
+#om a {
+    font-size: 1.5em;
+}
+
 #om .column1 {
     flex-grow: 1;
     flex-basis: 400px;
@@ -174,6 +178,10 @@ img {
 
 
 /* lisbeth  */
+
+#lisbeth .column2 a {
+    font-size: 1.5em;
+}
 
 #lisbeth .column1 {
     flex-grow: 1;
