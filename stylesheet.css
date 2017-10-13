@@ -17,10 +17,6 @@ img {
 .sectionwrapper {
     width: 100%;
     height: auto;
-    display: -webkit-flex;
-    /* Safari */
-    -webkit-flex-wrap: wrap;
-    /* Safari 6.1+ */
     display: flex;
     flex-wrap: wrap;
 }
@@ -85,21 +81,12 @@ img {
     margin: 30px;
 }
 
-#video {
-    width: 96.8%;
-    min-width: 375px;
-    height: 400px;
-    background-color: #85bddc;
-    display: block;
-    padding: 20px;
-}
-
 
 /*----------------------------------VIDEO-----------------------*/
 
 #video {
     width: 95.1%;
-    background-color: rgba(183, 195, 183, 0.85);
+    background-color: #b7c3b7;
     padding: 20px;
     height: auto;
 }
@@ -644,5 +631,3 @@ footer {
     margin: 30px;
     padding: 15px;
 }
-
-=======>>>>>>>origin/master>>>>>>>origin/master
