@@ -532,6 +532,21 @@ footer {
     }
 }
 
+@media (max-width: 828px) {
+    #om .column1 {
+        margin: 80px 30px 30px;
+    }
+    #patientvejledning .column1 {
+        margin: 80px 30px 30px;
+    }
+    #lisbeth .column1 {
+        margin: 80px 30px 30px;
+    }
+    #klinikken .column1 {
+        margin: 80px 30px 30px;
+    }
+}
+
 
 /*--------------------------------INFOSIDE CSS------------------------------*/
 
