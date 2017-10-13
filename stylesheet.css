@@ -74,6 +74,12 @@ img {
     text-align: center;
 }
 
+#om_info_side {
+    padding: 30px;
+    background-color: #87bdc4;
+    margin: 30px;
+}
+
 #video {
     width: 96.8%;
     min-width: 375px;
