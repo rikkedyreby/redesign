@@ -379,6 +379,7 @@ li a:hover {
     width: 100%;
     top: 0;
     background-color: #85BDDC;
+    z-index: 1;
 }
 
 .dropdown ul {
@@ -536,7 +537,7 @@ footer {
     }
 }
 
-<<<<<<< HEAD
+
 /*--------------------------------INFOSIDE CSS------------------------------*/
 
 #om_info_side .column1 {
