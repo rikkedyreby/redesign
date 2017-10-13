@@ -94,6 +94,7 @@ img {
     display: block;
     margin: 0 auto;
     padding: 20px;
+    height: auto;
 }
 
 #video a {
@@ -583,6 +584,8 @@ footer {
     position: absolute;
     width: 100%!important;
     height: 100%!important;
+    margin: 0 auto;
+	border: 30px solid #30a1b6;
 }
 
 #video_site .hs-responsive-embed-computer {
