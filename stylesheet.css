@@ -34,6 +34,7 @@ img {
 .title {
     width: 100%;
     height: auto;
+    margin-top: 30px;
 }
 
 
@@ -86,7 +87,6 @@ img {
     height: 400px;
     background-color: #85bddc;
     display: block;
-    margin: 0 auto;
     padding: 20px;
 }
 
@@ -94,11 +94,8 @@ img {
 /*----------------------------------VIDEO-----------------------*/
 
 #video {
-    width: 96.8%;
-    min-width: 375px;
+    width: 95.1%;
     background-color: rgba(183, 195, 183, 0.85);
-    display: block;
-    margin: 0 auto;
     padding: 20px;
     height: auto;
 }
