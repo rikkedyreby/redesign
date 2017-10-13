@@ -570,7 +570,6 @@ footer {
     width: 96.8%;
     min-width: 375px;
     height: 400px;
-    background-color: #A9DECA;
     display: block;
     margin: 0 auto;
     padding: 20px;
@@ -579,7 +578,7 @@ footer {
 #video_site .video_box h2 {
     padding: 10px;
     font-size: 2em;
-    color: rgba(48, 161, 182, 0.65);
+    color: rgba(102, 109, 102, 0.83);
 }
 
 #video_site .video a {
@@ -592,7 +591,7 @@ footer {
     width: 100%!important;
     height: 100%!important;
     margin: 0 auto;
-    border: 30px solid rgba(48, 161, 182, 0.65);
+    border: 50px solid rgba(183, 195, 183, 0.85);
 }
 
 #video_site .hs-responsive-embed-computer {
