@@ -59,7 +59,7 @@ img {
 }
 
 #om a:hover {
-    background-color:#719ca2;
+    background-color: #719ca2;
 }
 
 #om .column1 {
@@ -176,8 +176,6 @@ img {
 
 #lisbeth .column2 a:hover {
     background-color: #a0a0a0;
-
-
 }
 
 #lisbeth .column1 {
@@ -339,7 +337,7 @@ li a:hover {
 
 /*-------- Media Queries ---------- */
 
-@media all and (max-width: 828px) {
+@media all and (max-width: 1200px) {
     nav ul {
         display: none;
     }
@@ -435,7 +433,7 @@ li a:hover {
     }
 }
 
-@media all and (min-width: 828px) {
+@media all and (min-width: 1200px) {
     .dropdown {
         display: none;
     }
@@ -480,6 +478,12 @@ h2 {
 #om h3 {
     padding: 10px;
     margin: 10px;
+}
+
+@media all and (max-width: 828px) {
+    #kontakt_info .content h2 {
+        font-size: 0.8em
+    }
 }
 
 a {
