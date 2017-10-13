@@ -58,6 +58,10 @@ img {
     font-size: 1.5em;
 }
 
+#om a:hover {
+    background-color:#719ca2;
+}
+
 #om .column1 {
     flex-grow: 1;
     flex-basis: 400px;
@@ -168,6 +172,12 @@ img {
 
 #lisbeth .column2 a {
     font-size: 1.5em;
+}
+
+#lisbeth .column2 a:hover {
+    background-color: #a0a0a0;
+
+
 }
 
 #lisbeth .column1 {
